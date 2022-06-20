@@ -34,7 +34,7 @@ I haven't got any experience in real project development so far and understand t
 
 - 2022 The Rolling Scopes, JavaScript/Front-end Course, stage 1;
 
-- HTML, CSS, SQL at Sololearn
+- HTML, CSS, SQL at [Sololearn](https://www.sololearn.com/)
 
 
 
