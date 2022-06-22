@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV. HTML, CSS & Git Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Curriculum vitae</h1>
+  </header>
+  <main>
+    <div class="name">
+      <img src="./img/face.jpg" alt="my face" class="name__face">
+      <h2>Andrei Yurkouski</h2>
+    </div>
+    <div class="contacts">
+      <h3>Contacts:</h3>
+      <ul>
+        <li class="contacts__list-item">
+          <a href="mailto:andrey.yurkovsky@gmail.com">
+            <img src="./img/email.png" alt="e-mail" class="contacts__icon">
+            andrey.yurkovsky@gmail.com
+          </a>
+        </li>
+        <li class="contacts__list-item">
+          <a href="https://t.me/emp74ark">
+            <img src="./img/telegram.png" alt="telegram" class="contacts__icon">
+          </a>
+          emp74ark
+        </li>
+        <li class="contacts__list-item">
+          <img src="./img/discord.png" alt="discord" class="contacts__icon">
+          emp74ark#5876
+        </li>
+      </ul>
+    </div>
+    <div class="about">
+      <h2>About myself</h2>
+      <p>
+        More than ten years I had been working as a surgeon in Belarus. 
+        Computer technologies were always in the sphere of my interests 
+        and everyday life. I started learning web-development several months 
+        ago by myself. I've planned to use this knowledge to improve my local 
+        self-made patients database. Then I understood that my education needs 
+        better structure and started to learn JS/Frontend at Rolling Scopes.
+      </p>
+      <p>
+        New knowledge and circumstances made me change my plans again. 
+        From just a hobby learning web development turned into a 
+        professional goal.
+      </p>
+      <p>
+        It’s like when you obtain a driver license just to drive from 
+        home to work but some time later you find yourself making a big 
+        car journey, I realized that my journey in web development is 
+        just starting.
+      </p>
+      <p>
+        I haven't got any experience in real project development so 
+        far and understand that my skills in this field still need further 
+        enhancement, but I intend to keep on learning and practicing to do 
+        my best and finally become a skilled web-developer. 
+      </p>
+    </div>
+    <div class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          2002:2009 Gomel State Medical University, Surgery;
+        </li>
+        <li>
+          2022 The Rolling Scopes, JavaScript/Front-end Course, stage 1;
+        </li>
+        <li>
+          HTML, CSS, SQL at <a href="https://www.sololearn.com">Sololearn</a>.
+        </li>
+      </ul>
+    </div>
+    <div class="code">
+      This is one of my solutions on <a href="https://www.codewars.com/users/emp74ark">Codewars</a>:
+      <code>
+        var Cat = (function () {
+          let allCats = [];
+          return class Cat {
+            constructor(name, weight){
+              if(!name || !weight) throw Error();
+              Object.defineProperty(this, "weight", {
+                get: () => this._weight,
+                set: (w) => (this._weight = w)
+             face })
+              this.name = name;
+              this.weight = weight;
+              allCats.push(this);
+            }
+            static averageWeight(){
+              return allCats.map(w => w.weight).reduce((a,b) => a+b, 0) / allCats.length;
+            }
+          }
+         }());
+        </code>
+    </div>
+    <div class="language">
+      <h2>Language</h2>
+      English B1
+    </div>
+  </main>
+  <footer>
+    <ul>
+      <li>
+        <a href="#">Andrei Yurkouski</a>
+      </li>
+      <li>
+        <a href="https://github.com/emp74ark">
+          <img src="./img/github.png" alt="github">
+        </a>
+      </li>
+      <li>
+        <a href="https://training.epam.com/">
+          <img src="./img/upskillme.png" alt="upskillme">
+        </a>
+      </li>
+      <li>
+        published 24.06.2022
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>

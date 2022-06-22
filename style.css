@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  width: 80vw;
+  font-size: 18px;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+header {
+  border-bottom: 2px dotted black;
+  text-align: center;
+}
+h2 {
+  color: grey;
+}
+.name__face {
+  border-radius: 50%;
+  padding: 20px;
+  float: right;
+}
+.contacts {
+  height: 256px;
+}
+.contacts__list-item {
+  list-style: none;
+  margin: 15px;
+}
+.contacts__icon {
+  width: 24px;
+  vertical-align: middle;
+  margin: 5px;
+}
+.about,
+.education,
+.code,
+.language {
+  text-align: justify;
+  margin: 20px;
+}
+code {
+  margin: 20px auto;
+  display: block;
+  border-radius: 6px;
+  white-space: pre;
+  background: lightgray;
+  width: 60vw;
+  font-size: 14px;
+}
+footer {
+  text-align: center;
+  border-top: 2px dotted black;
+}
+footer li {
+  display: inline-block;
+  padding: 20px;
+}
+footer img {
+  width: 48px;
+  vertical-align: middle;
+}

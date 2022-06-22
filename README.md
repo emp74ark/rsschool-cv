@@ -3,5 +3,5 @@
 Description: HTML CV document was created;
 Deadline: not specified;
 Done: 20.06.2022;
-Deploy:
+Deploy: https://emp74ark.github.io/rsschool-cv/
 Screenshot:
