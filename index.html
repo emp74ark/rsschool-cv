@@ -7,16 +7,18 @@
   <title>CV. HTML, CSS & Git Basics</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <header>
     <h1>Curriculum vitae</h1>
   </header>
+
   <main>
-    <div class="name">
-      <img src="./img/face.jpg" alt="my face" class="name__face">
+
+    <section class="contacts">
       <h2>Andrei Yurkouski</h2>
-    </div>
-    <div class="contacts">
+      <img src="./img/face.jpg" alt="my face" class="contacts__face">
       <h3>Contacts:</h3>
       <ul>
         <li class="contacts__list-item">
@@ -28,16 +30,23 @@
         <li class="contacts__list-item">
           <a href="https://t.me/emp74ark">
             <img src="./img/telegram.png" alt="telegram" class="contacts__icon">
+            @emp74ark
           </a>
-          emp74ark
         </li>
         <li class="contacts__list-item">
           <img src="./img/discord.png" alt="discord" class="contacts__icon">
           emp74ark#5876
         </li>
+        <li class="contacts__list-item">
+          <a href="https://github.com/emp74ark">
+            <img src="./img/github.png" alt="github" class="contacts__icon">
+            GitHub
+          </a>
+        </li>
       </ul>
-    </div>
-    <div class="about">
+    </section>
+
+    <article class="about">
       <h2>About myself</h2>
       <p>
         More than ten years I had been working as a surgeon in Belarus. 
@@ -64,8 +73,9 @@
         enhancement, but I intend to keep on learning and practicing to do 
         my best and finally become a skilled web-developer. 
       </p>
-    </div>
-    <div class="education">
+    </article>
+    
+    <article class="education">
       <h2>Education</h2>
       <ul>
         <li>
@@ -77,10 +87,12 @@
         <li>
           HTML, CSS, SQL at <a href="https://www.sololearn.com">Sololearn</a>.
         </li>
+        <li>
+          Language: English B1
+        </li>
       </ul>
-    </div>
-    <div class="code">
-      This is one of my solutions on <a href="https://www.codewars.com/users/emp74ark">Codewars</a>:
+      <p>
+        Code example from one of my solutions on <a href="https://www.codewars.com/users/emp74ark">Codewars</a>:
       <code>
         var Cat = (function () {
           let allCats = [];
@@ -101,12 +113,11 @@
           }
          }());
         </code>
-    </div>
-    <div class="language">
-      <h2>Language</h2>
-      English B1
-    </div>
+      </p>
+    </article>
+
   </main>
+
   <footer>
     <ul>
       <li>
@@ -115,15 +126,17 @@
       <li>
         <a href="https://github.com/emp74ark">
           <img src="./img/github.png" alt="github">
+          GitHub: emp74ark
         </a>
       </li>
       <li>
         <a href="https://training.epam.com/">
-          <img src="./img/upskillme.png" alt="upskillme">
+          <img src="./img/upskillme.png" alt="upskill me logo">
+          UpSkill Me
         </a>
       </li>
       <li>
-        published 24.06.2022
+        published <time>22.06.2022</time>
       </li>
     </ul>
   </footer>

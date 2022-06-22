@@ -5,7 +5,18 @@ body {
   margin: 0 auto;
   width: 80vw;
   font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
   color: black;
+}
+header {
+  border-bottom: 2px dotted black;
+  text-align: center;
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: grey;
 }
 a {
   text-decoration: none;
@@ -14,24 +25,14 @@ a {
 a:visited {
   color: black;
 }
-header {
-  border-bottom: 2px dotted black;
-  text-align: center;
-}
-h2 {
-  color: grey;
-}
-.name__face {
+.contacts__face {
   border-radius: 50%;
-  padding: 20px;
+  padding: 10px;
   float: right;
-}
-.contacts {
-  height: 256px;
 }
 .contacts__list-item {
   list-style: none;
-  margin: 15px;
+  padding: 10px;
 }
 .contacts__icon {
   width: 24px;
@@ -39,9 +40,7 @@ h2 {
   margin: 5px;
 }
 .about,
-.education,
-.code,
-.language {
+.education {
   text-align: justify;
   margin: 20px;
 }
