@@ -44,15 +44,6 @@ a:visited {
   text-align: justify;
   margin: 20px;
 }
-code {
-  margin: 20px auto;
-  display: block;
-  border-radius: 6px;
-  white-space: pre;
-  background: lightgray;
-  width: 60vw;
-  font-size: 14px;
-}
 footer {
   text-align: center;
   border-top: 2px dotted black;
