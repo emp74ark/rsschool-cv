@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  width: 80vw;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+header {
+  border-bottom: 2px dotted black;
+  text-align: center;
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: grey;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+.contacts__face {
+  border-radius: 50%;
+  padding: 10px;
+  float: right;
+}
+.contacts__list-item {
+  list-style: none;
+  padding: 10px;
+}
+.contacts__icon {
+  width: 24px;
+  vertical-align: middle;
+  margin: 5px;
+}
+.about,
+.education {
+  text-align: justify;
+  margin: 20px;
+}
+footer {
+  text-align: center;
+  border-top: 2px dotted black;
+}
+footer li {
+  display: inline-block;
+  padding: 20px;
+}
+footer img {
+  width: 48px;
+  vertical-align: middle;
+}
